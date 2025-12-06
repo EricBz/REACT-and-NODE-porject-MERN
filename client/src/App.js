@@ -2,6 +2,7 @@ import './App.css'
 import RecibeProductos from './pages/recibeUsuarios';
 import Contact from './pages/contact';
 import { Link, BrowserRouter, Route, Routes } from "react-router-dom";
+import CartSummary from './CartSummary';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               You can easily purchase them through our website or contact us if you'd like to distribute them directly. Pure pleasure, just a cup away. The coffee bean is transformed into coffee through a process that begins with the cultivation and harvesting of the coffee cherry, followed by pulping, drying, roasting, and grinding to finally prepare the beverage. Each stage, from the processing of the green bean to the final brewing method, influences the flavor of the resulting product. The coffee process encompasses several stages: cultivation of the coffee trees, harvesting of the ripe fruits, processing (where the pulp and mucilage are separated from the beans, using methods such as washed or natural), drying in the sun or in machines, threshing to remove the parchment, and finally, roasting and grinding the bean to obtain the final product ready to be prepared.</h3>
 
             <Link to="/contact" className='text-white bg-black no-underline rounded-md p-2'>Contact with us!</Link>
+            <Link to="cart" className='text-white bg-black no-underline rounded-md p-2'>My Cart</Link>  
             {/*<a href="/contact"  target="_blank" rel="noopener noreferrer" className='text-white bg-black no-underline rounded-md p-2'>Contact with us!</a>*/}
           </div>
           <img src={img2} alt='cofeesweet' className="w-44 h-auto shadow-lg" />
@@ -35,6 +37,7 @@ function App() {
           <Routes>
             <Route path='/contact' element={<Contact />} />
             <Route path='/' element={<RecibeProductos/>}/>
+            <Route path='/cart' element={<CartSummary/>} />
           </Routes>
         </div>
         
