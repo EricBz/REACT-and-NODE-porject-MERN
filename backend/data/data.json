@@ -3,96 +3,115 @@
     "id": 1,
     "nombre": "Café Espresso Intenso",
     "tipo": "Grano entero",
-    "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "Colombia y Brasil",
     "precio": 12.99,
     "peso_g": 500,
-    "descripcion": "Una mezcla premium con notas de chocolate negro y un final persistente."
+    "descripcion": "Una mezcla premium con notas de chocolate negro y un final persistente.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   },
   {
     "id": 2,
     "nombre": "Café Tostado Claro Etiopía",
     "tipo": "Grano entero",
-    "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "Etiopía (Yirgacheffe)",
     "precio": 14.50,
     "peso_g": 250,
-    "descripcion": "Notas florales y cítricas con un cuerpo ligero y acidez brillante."
+    "descripcion": "Notas florales y cítricas con un cuerpo ligero y acidez brillante.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   },
   {
     "id": 3,
     "nombre": "Café Descafeinado Suave",
     "tipo": "Molido",
-      "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "México",
     "precio": 10.99,
     "peso_g": 500,
-    "descripcion": "Proceso de agua suiza, ideal para disfrutar a cualquier hora sin cafeína."
+    "descripcion": "Proceso de agua suiza, ideal para disfrutar a cualquier hora sin cafeína.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   },
   {
     "id": 4,
     "nombre": "Café Americano Clásico",
     "tipo": "Bebida",
-      "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "N/A",
     "precio": 2.50,
-    "descripcion": "Doble shot de espresso diluido con agua caliente."
+    "descripcion": "Doble shot de espresso diluido con agua caliente.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   },
   {
     "id": 5,
     "nombre": "Café con Leche (Latte)",
     "tipo": "Bebida",
-      "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "N/A",
     "precio": 3.20,
-    "descripcion": "Espresso suave con leche vaporizada y una ligera capa de espuma."
+    "descripcion": "Espresso suave con leche vaporizada y una ligera capa de espuma.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   },
   {
     "id": 6,
     "nombre": "Café Capuchino Cremoso",
     "tipo": "Bebida",
-      "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "N/A",
     "precio": 3.50,
-    "descripcion": "Partes iguales de espresso, leche caliente y espuma densa, espolvoreado con cacao."
+    "descripcion": "Partes iguales de espresso, leche caliente y espuma densa, espolvoreado con cacao.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   },
   {
     "id": 7,
     "nombre": "Café de Origen Honduras",
     "tipo": "Molido",
-    "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "Honduras",
     "precio": 11.50,
     "peso_g": 250,
-    "descripcion": "Perfil de sabor balanceado con notas a caramelo y nueces."
+    "descripcion": "Perfil de sabor balanceado con notas a caramelo y nueces.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   },
   {
     "id": 8,
     "nombre": "Café Moka Latte",
     "tipo": "Bebida",
-    "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "N/A",
     "precio": 3.80,
-    "descripcion": "Latte clásico con sirope de chocolate y crema batida opcional."
+    "descripcion": "Latte clásico con sirope de chocolate y crema batida opcional.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   },
   {
     "id": 9,
     "nombre": "Té Chai Latte",
     "tipo": "Bebida (alternativa)",
-    "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "India",
     "precio": 3.50,
-    "descripcion": "Té negro especiado (canela, cardamomo) con leche vaporizada y un toque dulce."
+    "descripcion": "Té negro especiado (canela, cardamomo) con leche vaporizada y un toque dulce.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   },
   {
     "id": 10,
     "nombre": "Café Sumatra Mandheling",
     "tipo": "Grano entero",
-    "imagenUrl":"",
+    "imagenUrl": "",
     "origen": "Indonesia (Sumatra)",
     "precio": 15.00,
     "peso_g": 250,
-    "descripcion": "Café de cuerpo completo, terroso, con baja acidez y sabor intenso."
+    "descripcion": "Café de cuerpo completo, terroso, con baja acidez y sabor intenso.",
+    "image": "http://localhost:8080/coffeeart.jpg",
+    "quantity": 10
   }
 ]
-
